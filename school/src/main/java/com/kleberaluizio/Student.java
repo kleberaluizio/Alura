@@ -11,8 +11,30 @@ public class Student {
 
     private List<PhoneNumber> phoneNumbers = new ArrayList<>();
 
+    public Student(CPF cpf, String name, Email email, List<PhoneNumber> phoneNumbers) {
+        this.cpf = cpf;
+        this.name = name;
+        this.email = email;
+        this.phoneNumbers = phoneNumbers;
+    }
+
     public void addPhoneNumber(String ddd, String number){
         this.phoneNumbers.add(new PhoneNumber(ddd, number));
     }
 
+    public CPF getCpf() {
+        return cpf;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Email getEmail() {
+        return email;
+    }
+
+    public List<PhoneNumber> getPhoneNumbers() {
+        return phoneNumbers;
+    }
 }

@@ -12,4 +12,8 @@ public class CPF {
             this.cpfNumber = cpfNumber;
         }
     }
+
+    public String getCpfNumber() {
+        return cpfNumber;
+    }
 }
