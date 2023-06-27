@@ -11,7 +11,7 @@ public class Student {
 
     private List<PhoneNumber> phoneNumbers = new ArrayList<>();
 
-    public Student(CPF cpf, String name, Email email, List<PhoneNumber> phoneNumbers) {
+    public Student(CPF cpf, String name, Email email) {
         this.cpf = cpf;
         this.name = name;
         this.email = email;
