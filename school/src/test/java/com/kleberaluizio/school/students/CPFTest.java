@@ -1,6 +1,5 @@
-package com.kleberaluizio.escola;
+package com.kleberaluizio.school.students;
 
-import com.kleberaluizio.escola.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

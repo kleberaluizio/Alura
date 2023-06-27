@@ -1,4 +1,4 @@
-package com.kleberaluizio.escola;
+package com.kleberaluizio.school.students;
 
 public class CPF {
 

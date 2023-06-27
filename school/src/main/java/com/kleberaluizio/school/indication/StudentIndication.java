@@ -1,4 +1,6 @@
-package com.kleberaluizio.escola;
+package com.kleberaluizio.school.indication;
+
+import com.kleberaluizio.school.students.Student;
 
 import java.time.LocalDateTime;
 
