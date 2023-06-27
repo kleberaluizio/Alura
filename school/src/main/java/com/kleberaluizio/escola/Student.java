@@ -1,4 +1,4 @@
-package com.kleberaluizio;
+package com.kleberaluizio.escola;
 
 import java.util.ArrayList;
 import java.util.List;

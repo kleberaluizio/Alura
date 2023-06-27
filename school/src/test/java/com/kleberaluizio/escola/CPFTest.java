@@ -1,5 +1,6 @@
-package com.kleberaluizio;
+package com.kleberaluizio.escola;
 
+import com.kleberaluizio.escola.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,14 +8,19 @@ import static org.junit.jupiter.api.Assertions.*;
 class CPFTest {
 
     @Test
-    void verifyCPF(){
+    void shouldNotCreateCpfWithInvalidNumbers(){
         assertThrows(IllegalArgumentException.class,
                 () -> new CPF(null));
         assertThrows(IllegalArgumentException.class,
                 () -> new CPF(""));
         assertThrows(IllegalArgumentException.class,
                 () -> new CPF("invalidNumber"));
+    }
 
-
+    @Test
+    void shouldAllowedCreateCpfWithValidNumber(){
+        String number = "123.456.789-00";
+        CPF cpf = new CPF(number);
+        assertEquals(number, cpf.getCpfNumber());
     }
 }

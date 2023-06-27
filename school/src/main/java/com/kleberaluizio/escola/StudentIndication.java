@@ -1,4 +1,4 @@
-package com.kleberaluizio;
+package com.kleberaluizio.escola;
 
 import java.time.LocalDateTime;
 
