@@ -1,5 +1,6 @@
-package com.kleberaluizio.school.students;
+package com.kleberaluizio.school.domain.students;
 
+import com.kleberaluizio.school.domain.students.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package com.kleberaluizio.school.students;
+package com.kleberaluizio.school.domain.students;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,16 +22,16 @@ public class Student {
         this.phoneNumbers.add(new PhoneNumber(ddd, number));
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getCpfNumber();
     }
 
     public String getName() {
         return name;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEmailAddress();
     }
 
     public List<PhoneNumber> getPhoneNumbers() {

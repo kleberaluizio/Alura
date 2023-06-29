@@ -1,4 +1,4 @@
-package com.kleberaluizio.school.students;
+package com.kleberaluizio.school.domain.students;
 
 public class PhoneNumber {
 

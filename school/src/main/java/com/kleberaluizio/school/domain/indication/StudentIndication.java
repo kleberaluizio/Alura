@@ -1,6 +1,6 @@
-package com.kleberaluizio.school.indication;
+package com.kleberaluizio.school.domain.indication;
 
-import com.kleberaluizio.school.students.Student;
+import com.kleberaluizio.school.domain.students.Student;
 
 import java.time.LocalDateTime;
 
